@@ -11,7 +11,7 @@ metadata:
   name: easytravel-backend
   namespace: easytravel
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       easytravel-tier: easytravel-backend
@@ -51,7 +51,7 @@ metadata:
   name: easytravel-frontend
   namespace: easytravel
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       easytravel-tier: easytravel-frontend
